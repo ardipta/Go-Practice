@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIKI | VIEW</title>
+</head>
+<body>
+    <h1 style="text-transform: capitalize;">{{.Title}}</h1>
+    <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+    <div>{{printf "%s" .Body}}</div>
+</body>
+</html>
